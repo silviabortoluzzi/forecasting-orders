@@ -33,6 +33,8 @@ For the complete explanation of model design, preprocessing pipeline, EDA, and r
 
 ## Repository Structure
 
+
+```text
 FORECASTING-ORDERS/
 │
 ├── data/
@@ -110,12 +112,14 @@ Each file follows the required structure specified in `prediction_mapping.csv`.
    - `xgboost.ipynb`
 3. Install dependencies:
 
-```bash
-pip install pandas numpy matplotlib seaborn prophet xgboost optuna
----
+   ```bash
+   pip install pandas numpy matplotlib seaborn prophet xgboost optuna
+```
 
 ## Full Report
 
-All analysis, including EDA, feature engineering, model selection, hyperparameter tuning, evaluation, and discussion, is documented in **Report.pdf**.  
+All analysis — including EDA, feature engineering, model selection, hyperparameter tuning, evaluation, and discussion — is documented in Report.pdf.
 Readers interested in the technical reasoning behind each choice should refer to that document.
 
+
+---
