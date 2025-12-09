@@ -112,7 +112,7 @@ Each file follows the required structure specified in `prediction_mapping.csv`.
    - `xgboost.ipynb`
 3. Install dependencies:
 
-   ```bash
+```bash
    pip install pandas numpy matplotlib seaborn prophet xgboost optuna
 ```
 
